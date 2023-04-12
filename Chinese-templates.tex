@@ -1,0 +1,35 @@
+% !Mode:: "TeX:UTF-8"
+% !TEX program  = xelatex
+%\documentclass{cumcmthesis}
+\documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页，电子版提交的时候使用。
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{url}   % 网页链接
+\usepackage{subcaption} % 子标题
+\title{基于FSS的新型天线罩设计}
+
+\input{Misc/preamble.tex}
+
+\begin{document}
+ \maketitle
+ \begin{abstract}
+
+\keywords{相关性分析\quad  偏相关性分析\quad  SPSS\quad  控制变量\quad  数据拟合\quad  乙醇转化率\quad   C4烯烃选择性大小，}
+\end{abstract}
+
+%以下部分为正文内容
+\input{Introduction/introduction.tex}
+%theory
+\input{Mathematical_model/mathematical_model.tex} 
+% method
+\input{Results_and_discussion/results.tex}
+%result
+\input{Results_and_discussion/discussion.tex}
+%analyse
+\input{Conclusion/conclusion.tex}
+%Conclusion
+
+
+%\input{_item/item.tex}
+%用于存放各种样例
+
+\end{document} 
