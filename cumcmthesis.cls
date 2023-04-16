@@ -500,7 +500,7 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 	 \end{center}%
  	 \quotation
 	\fi}
-	{\if@twocolumn\else\endquotation\newpage\null\fi}
+	{\if@twocolumn\else\endquotation\null\fi}
 \renewenvironment{quotation}
 	{\list{}{\listparindent 2em%
 	 \itemindent \listparindent

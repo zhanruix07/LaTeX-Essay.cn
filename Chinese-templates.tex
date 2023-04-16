@@ -1,20 +1,39 @@
 % !Mode:: "TeX:UTF-8"
 % !TEX program  = xelatex
 %\documentclass{cumcmthesis}
+
 \documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页，电子版提交的时候使用。
 \usepackage[framemethod=TikZ]{mdframed}
 \usepackage{url}   % 网页链接
 \usepackage{subcaption} % 子标题
 \title{基于FSS的新型天线罩设计}
-
 \input{Misc/preamble.tex}
 
+%中文摘要
 \begin{document}
  \maketitle
  \begin{abstract}
-
-\keywords{相关性分析\quad  偏相关性分析\quad  SPSS\quad  控制变量\quad  数据拟合\quad  乙醇转化率\quad   C4烯烃选择性大小，}
+	\keywords{频率选择表面\quad  极化不敏感\quad  三层复合结构\quad  宽角度不敏感}
 \end{abstract}
+
+%英文摘要
+\renewcommand{\abstractname}{Abstract}
+\renewcommand{\keywords}{\textbf{Keywords：}}
+\newpage
+
+\begin{abstract}
+\begin{spacing}{1.6}
+
+%英文摘要内容
+
+\end{spacing}
+\noindent\keywords{Frequency Selective Surface\quad Polarization Insensitivity\quad Three-layer Composite Structure}
+\end{abstract}
+
+%目录
+\newpage
+\tableofcontents
+\newpage
 
 %以下部分为正文内容
 \input{Introduction/introduction.tex}
@@ -27,9 +46,22 @@
 %analyse
 \input{Conclusion/conclusion.tex}
 %Conclusion
-
-
-%\input{_item/item.tex}
+\input{_item/item.tex}
 %用于存放各种样例
+
+%参考文献
+\newpage
+\begin{thebibliography}{99}
+%\bibitem{1} book
+%\bibitem{2} \url{WEBSITE}
+\end{thebibliography}
+
+%附录
+% Appendix
+%\appendix
+%\pagenumbering{roman}
+%\input{Appendix/appendix_A.tex}
+%\input{Appendix/appendix_B.tex}
+%\input{Appendix/appendix_C.tex}
 
 \end{document} 
