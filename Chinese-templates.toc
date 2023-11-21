@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}A}{4}{section.1}%
+\contentsline {section}{\numberline {2}Section A}{4}{section.2}%
+\contentsline {section}{\numberline {3}Section B}{4}{section.3}%
+\contentsline {section}{\numberline {4}Section C}{4}{section.4}%
+\contentsline {section}{\numberline {5}Section D}{4}{section.5}%
+\contentsline {section}{\numberline {6}item}{4}{section.6}%
+\contentsline {subsection}{\numberline {6\,.\,1}Table}{4}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6\,.\,1\,.\,1}Tables side by side}{4}{subsubsection.6.1.1}%
+\contentsline {subsection}{\numberline {6\,.\,2}Picture}{4}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6\,.\,2\,.\,1}title}{4}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6\,.\,2\,.\,2}Pictures side by side}{4}{subsubsection.6.2.2}%
+\contentsline {section}{参考文献}{5}{section*.3}%
